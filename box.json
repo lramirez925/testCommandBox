@@ -1,83 +1,95 @@
 {
-    "name": "Test App",
-    "version": "0.0.0",
-    "author": "Lonnie Ramirez",
-    "location": "",
-    "directory": "",
-    "createPackageDirectory": true,
-    "packageDirectory": "",
-    "homepage": "",
-    "documentation": "",
-    "repository": {
-        "type": "git",
-        "URL": "https://github.com/lramirez925/testCommandBox"
+    "name":"Test App",
+    "version":"0.0.0",
+    "author":"Lonnie Ramirez",
+    "location":"",
+    "directory":"",
+    "createPackageDirectory":true,
+    "packageDirectory":"",
+    "homepage":"",
+    "documentation":"",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/lramirez925/testCommandBox"
     },
-    "bugs": "",
-    "slug": "MyFW/1App",
-    "shortDescription": "A sweet package",
-    "description": "",
-    "instructions": "",
-    "changelog": "",
-    "type": "",
-    "keywords": [],
-    "private": false,
-    "engines": [
+    "bugs":"",
+    "slug":"MyFW/1App",
+    "shortDescription":"A sweet package",
+    "description":"",
+    "instructions":"",
+    "changelog":"",
+    "type":"",
+    "keywords":[
+        
+    ],
+    "private":false,
+    "engines":[
         {
-            "type": "adobe",
-            "version": ">=11.0.0"
+            "type":"adobe",
+            "version":">=11.0.0"
         }
     ],
-    "defaultEngine": "cf11",
-    "defaultPort": 0,
-    "projectURL": "",
-    "license": [
+    "defaultEngine":"cf11",
+    "defaultPort":0,
+    "projectURL":"",
+    "license":[
         {
-            "type": "",
-            "URL": ""
+            "type":"",
+            "URL":""
         }
     ],
-    "contributors": [],
-    "dependencies": {
-        "fw1": "^4.0.0",
-        "testHelloWorld-ljr": "folder:/Users/lonn0925/Documents/work/testForgeBoxModule",
-        "wirebox": "^4.3.0+188"
+    "contributors":[
+        
+    ],
+    "dependencies":{
+        "fw1":"^4.0.0",
+        "testHelloWorld-ljr":"git:github.com/lramirez925/CommandBoxModuleTest.git",
+        "wirebox":"^4.3.0+188"
     },
-    "devDependencies": {
-        "testbox": "^2.4.0+80"
+    "devDependencies":{
+        "testbox":"^2.4.0+80"
     },
-    "installPaths": {
-        "fw1": "./src/framework",
-        "testHelloWorld-ljr": "src/assets/lib/testHelloWorld-ljr",
-        "wirebox": "wirebox",
-        "testbox": "testbox"
+    "installPaths":{
+        "fw1":"src/framework",
+        "testHelloWorld-ljr":"src/assets/lib/testHelloWorld-ljr",
+        "wirebox":"wirebox",
+        "testbox":"testbox"
     },
-    "scripts": {},
-    "ignore": [
+    "scripts":{
+        
+    },
+    "ignore":[
         "**/.*",
         "test",
         "tests"
     ],
-    "testbox": {
-        "runner": [
+    "testbox":{
+        "runner":[
             {
-                "default": ""
+                "default":""
             }
         ],
-        "labels": [],
-        "reporter": "",
-        "reporterResults": "",
-        "bundles": [
+        "labels":[
+            
+        ],
+        "reporter":"",
+        "reporterResults":"",
+        "bundles":[
             ""
         ],
-        "directory": {
-            "mapping": "",
-            "recurse": true
+        "directory":{
+            "mapping":"",
+            "recurse":true
         },
-        "watchers": [],
-        "notify": {
-            "emails": [],
-            "growl": "",
-            "URL": ""
+        "watchers":[
+            
+        ],
+        "notify":{
+            "emails":[
+                
+            ],
+            "growl":"",
+            "URL":""
         }
     }
 }
