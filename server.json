@@ -1,0 +1,10 @@
+{
+    "app":{
+        "cfengine":"adobe"
+    },
+    "openBrowser":true,
+    "name":"testapp",
+    "jvm":{
+        "heapsize":1024
+    }
+}
