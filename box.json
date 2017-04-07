@@ -1,6 +1,6 @@
 {
     "name":"Test App",
-    "version":"0.0.0",
+    "version":"minor",
     "author":"Lonnie Ramirez",
     "location":"",
     "directory":"",
@@ -52,8 +52,8 @@
     "installPaths":{
         "fw1":"src/framework",
         "testHelloWorld-ljr":"src/assets/lib/testHelloWorld-ljr",
-        "wirebox":"wirebox",
-        "testbox":"testbox"
+        "testbox":"testbox",
+        "wirebox":"wirebox"
     },
     "scripts":{
         
