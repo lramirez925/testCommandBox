@@ -1,6 +1,5 @@
 {
     "name":"Test App",
-    "version":"0.1.0",
     "author":"Lonnie Ramirez",
     "location":"",
     "directory":"",
@@ -43,8 +42,7 @@
     ],
     "dependencies":{
         "fw1":"^4.0.0",
-        "testHelloWorld-ljr":"git:github.com/lramirez925/CommandBoxModuleTest.git",
-        "wirebox":"^4.3.0+188"
+        "testHelloWorld-ljr":"git:github.com/lramirez925/CommandBoxModuleTest.git"
     },
     "devDependencies":{
         "testbox":"^2.4.0+80"
@@ -52,8 +50,7 @@
     "installPaths":{
         "fw1":"src/framework",
         "testHelloWorld-ljr":"src/assets/lib/testHelloWorld-ljr",
-        "testbox":"testbox",
-        "wirebox":"wirebox"
+        "testbox":"testbox"
     },
     "scripts":{
         

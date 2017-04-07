@@ -1,6 +1,6 @@
 {
     "app":{
-        "cfengine":"adobe"
+        "cfengine":"adobe@11"
     },
     "openBrowser":true,
     "name":"testapp",
