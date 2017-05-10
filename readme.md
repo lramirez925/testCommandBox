@@ -1,8 +1,10 @@
 # Coldfusion Commandbox Webpack 2 Demo. 
 
 ## Requirements. 
-1. Node installed. 
+1. Node installed.
+   * [Click here](https://nodejs.org/en/download/)
 1. Commandbox installed.
+   * [Click here](https://www.ortussolutions.com/products/commandbox#download)
 
 ## Quick start instructions. 
 1. Clone the repository. 
