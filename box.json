@@ -53,7 +53,7 @@
         "testbox":"testbox"
     },
     "scripts":{
-        "build":"install && !npm install "
+        "build":"install && !npm install && !npm run build"
     },
     "ignore":[
         "**/.*",
