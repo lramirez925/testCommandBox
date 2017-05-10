@@ -2,3 +2,5 @@
 **/testbox/
 **/src/assets/lib/*
 **/framework
+**/node_modules
+**/dist
