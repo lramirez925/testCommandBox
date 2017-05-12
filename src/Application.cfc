@@ -4,7 +4,10 @@ component extends="framework.one" output="false" {
 	this.sessionManagement = true;
 	this.sessionTimeout = createTimeSpan(0, 0, 30, 0);
 
-	// FW/1 settings
+	 this.rootDir = getDirectoryFromPath(getCurrentTemplatePath());
+
+	this.mappings[ "/lib" ] = "#this.rootDir#/assets/lib/";
+
 	variables.framework = {
 		action = 'action',
 		defaultSection = 'main',
@@ -13,7 +16,7 @@ component extends="framework.one" output="false" {
 		SESOmitIndex = false,
 		diEngine = "di1",
 		diComponent = "framework.ioc",
-		diLocations = "model, controllers",
+		diLocations = "models, controllers",
         diConfig = { },
         routes = [ ]
 	};

@@ -2,6 +2,7 @@
 <cfoutput>
 	<h4>I'm the main view of the #rc.skeletonType#</h4>
 	<p>Check out the docs to take this app further.</p>
+	<p> message in rc: #rc.message# </p>
 	<ul>
 		<li><a href="http://framework-one.github.io/documentation/" target="_blank">Getting Started With FW/1</a></li>
 		<li><a href="http://framework-one.github.io/documentation/developing-applications.html" target="_blank">Developing Applications With FW/1</a></li>
