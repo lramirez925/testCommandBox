@@ -5,4 +5,8 @@ component name="main" output="false" accessors = true{
 		param name="rc.skeletonType" default="Basic FW/1 Skeleton";
 		rc.message = this.getBeanFactory().getBean("messageService").getMessage();
 	}
+
+	public void function view1(struct rc={}) {
+
+	}
 }

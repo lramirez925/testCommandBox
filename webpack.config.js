@@ -4,7 +4,8 @@ var less  = require("less-loader");
 
 module.exports = {
     entry: {
-        vendor:'./src/assets/js/app/vendor.js'
+        vendor:'./src/assets/js/app/vendor.js',
+        view1:'./src/assets/js/app/view1.js'
     },
     output: {
         filename:'[name].js',

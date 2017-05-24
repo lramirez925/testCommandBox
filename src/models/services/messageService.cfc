@@ -1,3 +1,3 @@
-component extends="lib.testHelloWorld-ljr.src.helloWorld"{
+component extends="lib.testHelloWorld-ljr.src.helloWorld" {
 
 }

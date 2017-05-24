@@ -54,7 +54,7 @@
     },
     "scripts":{
         "build":"install && !npm install && !npm run build",
-        "build-Prod":"install --production && !npm install  && !npm run buildProd"
+        "build-prod":"!git clean -fdx && install --production && !npm install  && !npm run buildProd"
     },
     "ignore":[
         "**/.*",

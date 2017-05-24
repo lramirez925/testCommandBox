@@ -1,6 +1,7 @@
 <h1>An Error Occurred</h1>
 <p>Details of the exception:</p>
 <cfoutput>
+<cfdump var="#request.exception#"/>
 	<ul>
 		<li>Failed action:
           <cfif structKeyExists( request, 'failedAction' )>
