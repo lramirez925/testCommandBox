@@ -45,7 +45,8 @@
         "testHelloWorld-ljr":"git:github.com/lramirez925/CommandBoxModuleTest.git"
     },
     "devDependencies":{
-        "testbox":"^2.4.0+80"
+        "testbox":"^2.4.0+80",
+        "commandbox-cfconfig":"^0.6.0-alpha"
     },
     "installPaths":{
         "fw1":"src/framework",
