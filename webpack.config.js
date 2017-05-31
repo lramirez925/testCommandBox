@@ -4,10 +4,11 @@ var less  = require("less-loader");
 
 module.exports = {
     entry: {
-        vendor:'./src/assets/js/app/vendor.js',
+        vendor:['./src/assets/js/app/vendor.js','lodash'],
         view1:'./src/assets/js/app/view1.js'
     },
     output: {
+        //filename:'[name].[chunkhash].js',
         filename:'[name].js',
         path: path.resolve(__dirname ,'src/assets/js/','dist'),
         publicPath:path.resolve(__dirname ,'src/assets/js/','dist')
@@ -18,6 +19,17 @@ module.exports = {
             jQuery: 'jquery',
             jquery: 'jquery'
         })
+        /*,
+        new webpack.optimize.CommonsChunkPlugin({
+            name: "vendor",
+
+            // filename: "vendor.js"
+            // (Give the chunk a different name)
+
+            minChunks: Infinity,
+            // (with more entries, this ensures that no other module
+            //  goes into the vendor chunk)
+        })*/
     ],
     module: {
         loaders: [
